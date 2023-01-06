@@ -7,10 +7,11 @@
 
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--white-color-text);
     color: var(--basic-text-color); 
 
     font-family: Roboto, sans-serif; 
+    font-weight: 400;
     letter-spacing: 0.03em;
 }
 
@@ -50,7 +51,7 @@ color: var(--accent-text-color);
 color: var(--accent-text-color);
 }
 /* Site-contact */
-.site-contact .link {
+.links {
 color: var(--basic-text-color);
 
 font-weight: 500;
@@ -59,8 +60,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.site-contact .link:hover, 
-.site-contact .link:focus {
+.site-contact .links:hover, 
+.site-contact .links:focus {
 color: var(--accent-text-color); }
 
 /* HERO  */
@@ -101,7 +102,6 @@ text-transform: uppercase;
 }
  .section-text {
 
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 color: var(--basic-text-color);
@@ -123,7 +123,7 @@ color: var(--primary-text-color);
  }
 
  .section-text-1 {
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.18;
 color: var(--basic-text-color);
@@ -136,7 +136,6 @@ color: var(--basic-text-color);
 .site-contact .link {
 color: var(--basic-text-color);
 
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 color: rgba(255, 255, 255, 0.6);
@@ -147,21 +146,24 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--accent-text-color);
 }
 .site-adress {
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.7;
-color: var(--white-color-text);
+color: var(--basic-text-color)
 }
 
 /* STYLES FOR PORTFOLIO.HTML */
 
-.button-site {
+.button-site .link{
 color: var(--primary-text-color);
-  background-color: #F5F4FA;
- font-family: inherit;
+
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.7;
+
+letter-spacing: 0.03em;
+
 
 }
 .button-site .link:hover,
@@ -181,7 +183,7 @@ letter-spacing: 0.06em;
 
 .portfolio-text {
     color: var(--basic-text-color);
- font-weight: 400;
+
 font-size: 16px;
 line-height: 1.9;
 }
